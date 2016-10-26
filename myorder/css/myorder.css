@@ -1,0 +1,82 @@
+#myorder{
+   background-color: #fff;
+   /*height: 530px;*/
+}
+#myorderheader{
+   height: 3.75rem;
+   width: 100%;
+   background-color: #3a3a3a;
+   color: #fff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+}
+#myorderheader a{
+   color: #fff;
+   display: inline-block;
+   width: 2rem;
+   height: 3.75rem;
+   text-align: center;
+   position: absolute;
+   left:1rem;
+}
+#myorderheader a span{
+   line-height:3.6rem;
+}
+#myorderheader h3{
+   text-align: left;
+   line-height: 3.75rem;
+   font-size: 1.5rem;
+   margin-left: 4rem;
+}
+#myordernav{
+   padding-top: 3.75rem;
+   width: 100%;
+   height: 7.5rem;
+   background-color: #fff;
+   border-bottom: 2px solid #e5e5e5;
+   box-sizing: border-box;
+}
+#myordernav ul{
+   display: flex;
+   justify-content: space-between;
+}
+#myordernav ul li{
+   width: 25%;
+   height: 3.75rem;
+   text-align: center;
+   line-height: 3.75rem;
+}
+#myordernav ul li a{
+   color:#e5e5e5;
+}
+#myordernav ul li:hover{
+   border-bottom: 2px solid;
+   box-sizing: border-box;
+
+}
+#myordernav ul li:hover a{
+   color: #000;
+}
+#myordermain{
+   width: 100%;
+   text-align: center;
+}
+#myordermain img{
+   margin-top: 9.17rem;
+   width: 25%;
+   height: 25%;
+   margin-bottom: 1.5rem;
+}
+#myordermain span{
+   display: inline-block;
+   width: 70%;
+   height: 3.3334rem;
+   background-color: #444444;
+   color: #fff;
+   font-size: 1.33334rem;
+   line-height: 3.3334rem;
+   border-radius: 5px;
+   margin-top: 2rem;
+}

@@ -1,0 +1,239 @@
+#homeheader{
+   height: 3.75rem;
+   width: 100%;
+   background-color: #3a3a3a;
+   color: #fff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: 2;
+}
+#homeheader .inseticon1, .inseticon3{
+   display: inline-block;
+   width: 10%;
+   height: 3.75rem;
+   text-align: center;
+   line-height: 5rem;
+}
+#homeheader div img{
+   width: 75%;
+   height: 50%;
+
+}
+#homeheader>a>span{
+   display: inline-block;
+   width: 15%;
+   height: 3.75rem;
+   text-align: center;
+   line-height: 3.7rem;
+   float: left;
+   color: #fff;
+}
+.inseticon1{
+   float: left;
+}
+.inseticon3{
+   float: right;
+}
+.inseticon2{
+   display: inline-block;
+   width: 50%;
+   height: 3.75rem;
+   text-align: center;
+   line-height: 5rem;
+}
+#homeheader .inseticon2 img{
+   width: 60%;
+   height: 50%;
+}
+#homenav{
+   width: 100%;
+   margin-top: 3.75rem;
+   height: 14.583rem;
+}
+/*轮播图*/
+#homenav .swiper-container{
+   height: 14.583rem;
+
+}
+#homenav .swiper-wrapper img{
+   width: 100%;
+   height: 100%;
+}
+#homenav .swiper-pagination-bullet-active{
+   background-color: #fff;
+}
+.log{
+   height: 14.583rem;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 1.75rem;
+}
+.log section{
+   width: 20%;
+   height: 50%;
+
+}
+.log section a{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.log section a img{
+   width: 70%;
+   height: 50%;
+}
+#homemain .banner{
+   width: 100%;
+   height: 9.375rem;
+   margin-bottom: 1.75rem;
+}
+#homemain .banner img{
+   width: 100%;
+   height: 100%;
+}
+#homemain .newcustomers{
+   background-color: #fff;
+   margin-bottom: 1.75rem;
+}
+#homemain .newcustomers h3{
+   height: 4.17rem;
+   font-size: 1.4rem;
+   text-align: center;
+   line-height: 4.17rem;
+   color: #2b2b2b;
+}
+#homemain .newcustomersimg {
+   width: 100%;
+   height: 9.916rem;
+   margin-bottom: 1.75rem;
+}
+#homemain .newcustomersimg img{
+   width: 100%;
+   height:100%；
+}
+#homemain .newsale{
+   width: 100%;
+   height: 21.167rem;
+   position: relative;
+   overflow: auto;
+}
+#homemain .newsale .newsale-list{
+   overflow: auto;
+   width: 800px;
+   height: 100%;
+   position: absolute;
+   left:0;
+   top: 0;
+
+}
+#homemain .newsale .newsale-list section{
+   float: left;
+   margin-left: 1.75rem;
+   width: 10.25rem;
+   height: 100%;
+}
+#homemain .newsaleimg{
+   width: 100%;
+   height: 65%;
+}
+#homemain .newsaleimg img{
+   width: 100%;
+   height: 100%;
+}
+#homemain .newsalemsg{
+   height: 35%;
+   width: 100%;
+   text-align: center;
+}
+#homemain .newsalemsg p:first-of-type{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   font-size: 1.1rem;
+}
+#homemain .newsalemsg p:nth-of-type(2){
+   color: #ce021b;
+   padding:1rem 0;
+}
+#homemain .newsalemsg>span{
+   padding: 0.3rem 1rem;
+   background-color: #ce021b;
+   color: #fff;
+   border-radius: 1rem;
+}
+#homemain .hotkind{
+   height: 25.83rem;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 1.75rem;
+}
+#homemain .hotkind h3{
+   display: inline-block;
+   width: 90%;
+   height: 3.34rem;
+   text-align: center;
+   line-height: 3.34rem;
+   color: #969696;
+   background-color: #fff;
+   font-weight: 100;
+}
+#homemain .hotkind ul{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+#homemain .hotkind ul li{
+   width: 25%;
+   height: 7.5rem;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+}
+#homemain .hotkind ul li a{
+   width: 100%;
+   height: 7.5rem;
+}
+#homemain .hotkind ul li a img{
+   width: 100%;
+   height: 100%;
+}
+#homemain .hotbrand{
+   height: 21.7rem;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 1.75rem;
+}
+#homemain .hotbrand h3{
+   display: inline-block;
+   width: 90%;
+   height: 3.34rem;
+   text-align: center;
+   line-height: 3.34rem;
+   color: #969696;
+   background-color: #fff;
+   font-weight: 100;
+}
+#homemain .hotbrand ul{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+#homemain .hotbrand ul li{
+   width: 25%;
+   height: 8rem;
+}
+#homemain .hotbrand ul li:last-of-type{
+   width: 50%;
+}
+#homemain .hotbrand ul li a, .hotbrand ul li a img{
+   width: 100%;
+   height: 100%;
+}
