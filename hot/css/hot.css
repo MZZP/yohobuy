@@ -1,0 +1,131 @@
+
+#hotheader{
+   height: 3.75rem;
+   width: 100%;
+   background-color: #3a3a3a;
+   color: #fff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+}
+#hotheader a{
+   color: #fff;
+   display: inline-block;
+   width: 2rem;
+   height: 3.75rem;
+   text-align: center;
+   position: absolute;
+   left:1rem;
+}
+#hotheader a span{
+   line-height:3.6rem;
+}
+#hotheader h3{
+   text-align: left;
+   line-height: 3.75rem;
+   font-size: 1.5rem;
+   margin-left: 4rem;
+   display: inline-block;
+   height: 3.75rem;
+   width: 50%;
+}
+#hotheader p{
+   display: inline-block;
+   float: right;
+   font-size: 1.333rem;
+   width: 4rem;
+   height: 3.75rem;
+   line-height: 3.75rem;
+   margin-right: 1rem;
+   text-align: center;
+}
+#hotnav{
+   width: 100%;
+   height: 7.5rem;
+   background-color: #fff;
+   padding-top: 3.75rem;
+   box-sizing: border-box;
+   border-bottom: 2px solid #e7e7e7;
+}
+#hotnav ul{
+   display: flex;
+   justify-content: space-between;
+}
+#hotnav ul li{
+   width: 33.3333%;
+   height: 3.75rem;
+   text-align: center;
+   line-height: 3.75rem;
+   box-sizing: border-box;
+}
+#hotnav ul li a{
+   color: #e7e7e7;
+   font-size: 1.166667rem;
+}
+#hotnav ul li:hover{
+   border-bottom: 2px solid;
+}
+#hotnav ul li a:hover{
+   color: #000;
+}
+#hotnav ul li:nth-of-type(2) a, #hotnav ul li:last-of-type a{
+   position: relative;
+}
+#hotnav ul li:nth-of-type(2) a span:first-of-type{
+   position: absolute;
+   top: -.25rem;
+   right: -0.75rem;
+}
+#hotnav ul li:nth-of-type(2) a span:last-of-type{
+   position: absolute;
+   right: -0.75rem;
+   bottom: -.25rem;
+}
+ #hotnav ul li:last-of-type a span:first-of-type{
+    position: absolute;
+    top: -.25rem;
+    right: -0.9rem;
+ }
+  #hotnav ul li:last-of-type a span:last-of-type{
+     position: absolute;
+     right: -0.9rem;
+     bottom: -.25rem;
+  }
+#hotmain{
+   background-color: #fff;
+}
+#hotmain .hotlist{
+   overflow: hidden;
+   margin-bottom: 3rem;
+}
+#hotmain .hotlist section{
+   width: 47%;
+   height: 21.08rem;
+   float: left;
+   margin-bottom: 1rem;
+   margin-left:2%;
+   margin-top: 1.5rem;
+}
+#hotmain .hotlist section .insetImg{
+   width: 100%;
+   height: 72%;
+   text-align: center;
+}
+#hotmain .hotlist section .insetImg img{
+   width: 95%;
+   height: 100%;
+}
+#hotmain .hotlist section .hotmsg p:first-of-type{
+   padding-top: 0.5rem;
+   height: 3rem;
+}
+#hotmain .hotlist section .hotmsg p:last-of-type{
+   font-size: 1.334rem;
+   color: rgb(224, 79, 59);
+}
+#hotmain .hotlist section .hotmsg p:last-of-type span{
+   text-decoration: line-through;
+   font-size: 1rem;
+   color: #bfbfbf;
+}

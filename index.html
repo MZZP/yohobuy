@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>有货</title>
+      <link rel='stylesheet' href="http://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+      <link rel="stylesheet" href="reset.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="libs/swiper.min.css" media="screen" title="no title" charset="utf-8">
+      <style media="screen">
+      #nav1{
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         height: 4.08333rem;
+         background-color: #fff;
+         border-top: 1px solid #ccc;
+      }
+      #nav1 ul{
+         display: flex;
+         justify-content: space-between;
+      }
+      #nav1 ul li{
+         width: 20%;
+         height: 4.08333rem;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+      }
+      #nav1 ul li a{
+         color: #b0b0b0;
+         display: inline-block;
+      }
+      #nav1 ul li a span{
+         display: inline-block;
+         width: 100%;
+         height: 2rem;
+         text-align: center;
+         line-height: 2rem;
+      }
+
+      </style>
+
+   </head>
+   <script src="libs/angular.js" charset="utf-8"></script>
+   <script src="libs/angular-css.js" charset="utf-8"></script>
+   <script src="libs/angular-route.js" charset="utf-8"></script>
+   <body ng-app="myApp">
+
+      <nav id="nav1">
+         <ul>
+            <li><a href="#home"><span class="fa fa-home fa-2x"></span><p>首页</p></a></li>
+            <li><a href="#classify"><span class="fa fa-space-shuttle fa-2x"></span><p>分类</p></a></li>
+            <li><a href="#shopping"><span class="fa fa-rocket fa-2x"></span><p>逛</p></a></li>
+            <li><a href="#shoppingCart"><span class="fa fa-shopping-cart fa-2x"></span><p>购物车</p></a></li>
+            <li><a href="#mine"><span class="fa fa-user fa-2x"></span><p>我的</p></a></li>
+         </ul>
+      </nav>
+      <div ng-view></div>
+
+   </body>
+   <script src="route.js" charset="utf-8"></script>
+   <script src="./home/js/home.js" charset="utf-8"></script>
+   <script src="./shoppingCart/js/shoppingCart.js" charset="utf-8"></script>
+   <script src="libs/swiper.min.js" charset="utf-8">
+   </script>
+   <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" charset="utf-8"></script>
+
+   <!-- <script src="../js/home.js" charset="utf-8"></script> -->
+</html>

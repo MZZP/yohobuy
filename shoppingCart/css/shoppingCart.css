@@ -1,0 +1,95 @@
+#shoppingCartheader{
+   height: 3.75rem;
+   width: 100%;
+   background-color: #3a3a3a;
+   color: #fff;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+#shoppingCartheader a{
+   color: #fff;
+   display: inline-block;
+   width: 2rem;
+   height: 3.75rem;
+   text-align: center;
+   /*line-height:4rem;*/
+   position: absolute;
+   left:1rem;
+}
+#shoppingCartheader a span{
+   line-height: 3.6rem;
+}
+#shoppingCartheader h3{
+   text-align: center;
+   line-height: 3.75rem;
+   font-size: 1.5rem;
+}
+#shoppingCartnav{
+   margin-top: 3.75rem;
+   height: 19rem;
+   width: 100%;
+   background-color: #fff;
+   text-align: center;
+   border-bottom: 1px solid #bfbfbf;
+}
+#shoppingCartnav img{
+   width: 30%;
+   height: 40%;
+   margin-top: 2rem;
+   margin-bottom: 1.5rem;
+}
+#shoppingCartnav p{
+   color: #bfbfbf;
+   margin-bottom: 1rem;
+}
+#shoppingCartnav span{
+   display: inline-block;
+   width: 20%;
+   height: 3rem;
+   border: 1px solid;
+   border-radius: 5px;
+   line-height: 3rem;
+}
+#shoppingCartmain{
+   background-color: #fff;
+}
+#shoppingCartmain>p{
+   text-align: center;
+   color: #747474;
+   padding-top: 0.84rem;
+   padding-bottom: 2rem;
+}
+#shoppingCartmain .list{
+   overflow: hidden;
+   margin-bottom: 3rem;
+}
+#shoppingCartmain .list section{
+   width: 47%;
+   height: 21.08rem;
+   float: left;
+   margin-bottom: 1rem;
+   margin-left:2%;
+}
+#shoppingCartmain .list section .insetImg{
+   width: 100%;
+   height: 72%;
+   text-align: center;
+}
+#shoppingCartmain .list section .insetImg img{
+   width: 95%;
+   height: 100%;
+}
+#shoppingCartmain .list section .msg p:first-of-type{
+   padding-top: 0.5rem;
+   height: 3rem;
+}
+#shoppingCartmain .list section .msg p:last-of-type{
+   font-size: 1.334rem;
+   color: rgb(224, 79, 59);
+}
+#shoppingCartmain .list section .msg p:last-of-type span{
+   text-decoration: line-through;
+   font-size: 1rem;
+   color: #bfbfbf;
+}
